@@ -1,0 +1,2 @@
+# PasswordStrengthCustom
+Custom password strength.

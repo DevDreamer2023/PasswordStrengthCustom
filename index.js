@@ -1,4 +1,4 @@
-function PwdStrength(
+function pwdStrength(
     password,
     minLength = 8, 
     requireUppercase = true,
@@ -50,4 +50,4 @@ function PwdStrength(
     };
   }
 
-  module.exports(PwdStrength);
+  module.exports(pwdStrength);

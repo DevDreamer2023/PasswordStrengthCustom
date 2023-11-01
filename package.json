@@ -1,11 +1,11 @@
 {
   "name": "custom-pwd-strength",
   "version": "1.0.0",
-  "description": "fucntions in this will check the password strength and you can customize the password strength by passing few parameter",
+  "description": "Functions in this package check password strength and allow customization by passing parameters.",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.ts"
+    "start": "node index.ts"
   },
   "keywords": [
     "password",
@@ -17,11 +17,12 @@
     "check",
     "match",
     "security",
-    "quality",
-    "pattern",
-    "cracking",
-    "estimation"
+    "pattern"
   ],
   "author": "Ayush & Aman",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevDreamer2023/PasswordStrengthCustom"
+  }
 }

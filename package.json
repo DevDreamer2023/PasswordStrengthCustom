@@ -1,0 +1,27 @@
+{
+  "name": "custom-pwd-strength",
+  "version": "1.0.0",
+  "description": "fucntions in this will check the password strength and you can customize the password strength by passing few parameter",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.ts"
+  },
+  "keywords": [
+    "password",
+    "customize",
+    "validator",
+    "rules",
+    "schema",
+    "validation",
+    "check",
+    "match",
+    "security",
+    "quality",
+    "pattern",
+    "cracking",
+    "estimation"
+  ],
+  "author": "Ayush & Aman",
+  "license": "MIT"
+}

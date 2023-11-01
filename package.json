@@ -1,5 +1,5 @@
 {
-  "name": "custom-pwd-strength",
+  "name": "custom-password-strength",
   "version": "1.0.0",
   "description": "Functions in this package check password strength and allow customization by passing parameters.",
   "main": "index.ts",

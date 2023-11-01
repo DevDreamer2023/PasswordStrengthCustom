@@ -1,4 +1,4 @@
-function pwdStrength(
+export function pwdStrength(
     password,
     minLength = 8, 
     requireUppercase = true,
@@ -50,6 +50,3 @@ function pwdStrength(
     };
   }
 
-  console.log(pwdStrength('asdfasdf',6,false,false,false,false))
-
-  module.exports = pwdStrength;

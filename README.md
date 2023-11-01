@@ -10,7 +10,7 @@ const { pwdStrength } = require('custom-pwd-strength')
 // OR
 import { pwdStrength } from 'custom-pwd-strength'
 ```
-## Function without customization
+## Function without strength customization
 - syntax: pwStrength("password)
 - the function accepts only the password as a string parameter for evaluation.
 ```javascript
@@ -24,14 +24,16 @@ console.log(pwdStrength('asdfasdf'))    // o/p: {"valid":false, feedback:"weak"}
 // requireDigits = true,
 // requireSpecialChars = true
 ```
-## Function without customization
-- syntax: pwStrength(password , minLength, requireUppercase, requireLowercase,requireDigits,requireSpecialChars)
-- Function accepts 6 parameter , first is *password* in string format.
-- *minLength*: accepts integer, you can set desired length for the password. 
-- *requireUppercase*: accepts boolean, if true, the function checks presence of uppercase letters in the password.
-- *requireLowercase*: accepts boolean, if true, the function checks presence of lowercase letters in the password.
-- *requireDigits*: accepts boolean, if true, the function checks presence of Digits in the password.
-- *requireSpecialChars*: accepts boolean, if true, the function checks presence of specialChar in the password.
+## Customizable strength function
+
+
+- **syntax**: pwStrength(password, minLength, requireUppercase, requireLowercase, requireDigits, requireSpecialChars)
+- Function accepts 6 parameter , first is **password** in string format.
+- **minLength**: accepts integer, you can set desired length for the password. 
+- **requireUppercase**: accepts boolean, if true, the function checks presence of uppercase letters in the password.
+- **requireLowercase**: accepts boolean, if true, the function checks presence of lowercase letters in the password.
+- **requireDigits**: accepts boolean, if true, the function checks presence of Digits in the password.
+- **requireSpecialChars**: accepts boolean, if true, the function checks presence of specialChar in the password.
 
 ```javascript
 console.log(pwdStrength("devDreamer@123",6,true,true,true,true))
@@ -43,12 +45,9 @@ console.log(pwdStrength("abcdefgh",5,true,false,false, false))
 // "valid" is false because "requiredUppercase" is true, but no uppercase letter is present in the password.
 // Parameters set as false are optional, they won't affect the outcome if the password fulfills those conditions or not.
 ```
+
+## Points to remember
+- For a customizable function, include all parameters to avoid confusion or unexpected outcomes.
+
 ## License
 **MIT**
-
-## Keywords
-
-**Password** **Strength** **schema**
-**Custom** **Security** **Validator** **rules**
-
-

@@ -1,8 +1,8 @@
 # Overview
 
-We offer a package designed for password strength detection. You can customize the strength by providing specific parameters. The package will then return an object with two keys: the first key, "valid," which will be a boolean value, and the second key is "feedback." 
+ package designed for password strength detection for ReactJs, vueJs and expressJs. You can customize the strength by providing specific parameters. The package will then return an object with two keys: the first key, "valid," which will be a boolean value, and the second key is "feedback." 
 ## Installation
-`npm i custom-password-strength`
+`npm i customize-password-strength`
 ## Usage
 ```javascript
 
@@ -48,6 +48,7 @@ console.log(pwdStrength("abcdefgh",5,true,false,false, false))
 
 ## Points to remember
 - For a customizable function, include all parameters to avoid confusion or unexpected outcomes.
+- This package is created for ReactJs, VueJs and ExpressJs.
 
 ## License
 **MIT**

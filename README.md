@@ -2,7 +2,7 @@
 
 We offer a package designed for password strength detection. You can customize the strength by providing specific parameters. The package will then return an object with two keys: the first key, "valid," which will be a boolean value, and the second key is "feedback." 
 ## Installation
-`npm i custom-pwd-strength --save`
+`npm i custom-pwd-strength`
 ## Usage
 ```javascript
 
